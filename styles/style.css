@@ -319,8 +319,10 @@ a {
 
 .anggota-tags {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     margin: 1rem 0;
+    width: 100%;
 }
 
 .anggota-tags div {
