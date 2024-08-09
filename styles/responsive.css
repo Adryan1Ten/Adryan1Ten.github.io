@@ -119,7 +119,7 @@
         padding: 2rem 0;
     }
 
-    #anggotas .row .anggota {
+    #anggotas .field .anggota {
         width: 20rem;
     }
 }
@@ -159,12 +159,6 @@
 
     .hero-right img {
         margin-bottom: 2rem ;
-    }
-    #anggotas .row .anggota {
-        width: 90%;
-    }
-    #anggotas .row .anggota .anggota-cover {
-        height: 19rem;
     }
 
     #vms .vms-grid {

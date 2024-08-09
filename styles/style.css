@@ -268,26 +268,34 @@ a {
 /* anggota Section */
 #anggotas {
     padding: var(--sectionPadding);
+    width: 100%;
 }
+
 
 .anggota {
     border-radius: var(--itemBorderRadius);
     overflow: hidden;
     border: 1px solid var(--borderColor);
+    width: 17.9rem;
+    height: 90%;
+    
 }
 
 .anggota-cover {
-    height: 18rem;
+    height: 400px;
     width: 100%;
 }
 
 .anggota-cover img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .anggota-info {
+    height:300px;
     padding: 2rem 1.5rem;
+
 }
 .anggota-title {
     display: flex;
@@ -322,24 +330,17 @@ a {
     color: var(--secondaryTextColor)
 }
 
-#anggotas .row {
+#anggotas .field {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 8rem;
     justify-content: center;
 }
 
-#anggotas .row .anggota {
-    width: 24%;
-    max-height: 35rem;
-}
 
-#anggotas .row .anggota-cover img {
+
+#anggotas .field .anggota-cover img {
     width: 100%;
-} 
-#anggotas .row audio {
-    width: 15rem;
-    size: 1rem;
 } 
 
 /* Section vms */
