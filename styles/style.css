@@ -323,6 +323,11 @@ a {
     gap: 0.5rem;
     margin: 1rem 0;
     width: 100%;
+    justify-content: center;
+}
+
+.anggota-tags p{
+    text-align: justify;
 }
 
 .anggota-tags div {
